@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main-styles.css">
+    <link rel="stylesheet" href="./styles/home-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <a id="home-logo" href="index.html">
+        <img id="kd-logo" src="./assets/kd-logo.png" alt="main logo">
+        <h1 style="color:#266dff;font-family: 'Red Rose', cursive;" class="header-title">Kevin</h1>
+        <h1 style="color:white;font-family: 'Red Rose', cursive;" class="header-title">Dowdy</h1>
+    </a>
+    <div class="topnav" id="myTopnav">
+        <ul class="top-nav-bar">
+            <li><a class="nav-item active" href="index.html">HOME</a></li>
+            <li><a class="nav-item" href="portfolio.html">PORTFOLIO</a></li>
+            <li><a class="nav-item" href="services.html">SERVICES</a></li>
+            <li><a class="nav-item" href="about.html">ABOUT</a></li>
+            <li><a class="nav-item" href="contact-us.html">CONTACT</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="menu-nav" onclick="myFunction()">
+            <i class="fa fa-bars bars"></i>
+        </a>
+    </div>
+</div>
+<div class="welcome-message-area">
+    <div class="mobile-nav-area closed" id="mobile-nav-item">
+        <ul class="mobile-nav-list">
+            <li class="mobile-link"><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwidi52Sj67rAhUPmXIEHV9IABUQPAgH">HOME</a></li>
+            <li class="mobile-link"><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwidi52Sj67rAhUPmXIEHV9IABUQPAgH">PORTFOLIO</a></li>
+            <li class="mobile-link"><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwidi52Sj67rAhUPmXIEHV9IABUQPAgH">ABOUT</a></li>
+            <li class="mobile-link"><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwidi52Sj67rAhUPmXIEHV9IABUQPAgH">SERVICES</a></li>
+            <li class="mobile-link"><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwidi52Sj67rAhUPmXIEHV9IABUQPAgH">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="welcome-message-item">
+        <div class="inner-welcome-message-area">
+            <h4 class="message-title">Welcome All!</h4>
+            <h2 class="message">Wondering who I am?</h2>
+            <h2 class="message">Find out below</h2>
+        </div>
+    </div>
+</div>
+<div class="bio-message-area">
+    <p class="bio-message">
+        Kevin is a class of '20 graduate of John Jay College of Criminal Justice where he studied Computer Science and Information Security with a minor in Security Management.
+        As part of his studies he completed courses in Linear Algebra, Calculus, Computer Architecture and <a href="#link-to-my-course-list">more</a>.
+        At EY he is a consultant in the Technology Advisory Program in their Engineering and Programming domain where he supports projects for clients in consumer industries. Kevin
+        Outside of his career Kevin enjoys reading sci-fi and fantasy novels, discovering amazing food and spending time with his family and friends.
+        He also leads coding camps for students to get started learning to code. He is a co-host on the show Likely Reasons and founder of Rountree Tech.
+    </p>
+</div>
+<div class="about-area">
+    <div>
+        <h2><i>Motivated & Passionate</i></h2>
+    </div>
+    <div class="icon-area">
+        <div class="icon">
+            <img src="./assets/developer-icon.png" alt="developer icon">
+            <h6>Developer</h6>
+        </div>
+        <div class="icon">
+            <img src="./assets/graduate-icon.png" alt="graduate icon">
+            <h6>Graduate</h6>
+        </div>
+        <div class="icon">
+            <img src="./assets/speaker-icon.png" alt="speaker icon">
+            <h6>Speaker</h6>
+        </div>
+        <div class="icon">
+            <img src="./assets/mentor-icon.png" alt="mentorship icon">
+            <h6>Mentor</h6>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-row">
+        <div class="footer-row-left">
+            <img src="./assets/footer-logo.png" width="155px" height="115px" style="display: inline">
+        </div>
+        <div class="footer-row-right">
+            <h3 class="footer-subscribe-message" >Stay connected with us</h3>
+            <input class="footer-subscribe-input" type="text" id="name" placeholder="Name" name="name"/>
+            <input class="footer-subscribe-input" type="email" id="email" placeholder="Email" name="email"/>
+            <button class="footer-subscribe-button" id="subscribe" type="submit">Subscribe</button>
+        </div>
+    </div>
+    <div class="footer-row">
+        <div class="footer-row-left">
+            <p>Here at Kord Star we strive to create websites that impress both our clients and their customers while maintaining our integrity. We look forward to hearing more about your projects and how we can help.</p>
+        </div>
+        <div class="footer-row-right">
+            <div class="footer-nav">
+                <a href="index.html">
+                    <h6>Home</h6>
+                </a>
+                <a href="portfolio.html">
+                    <h6>Portfolio</h6>
+                </a>
+                <a href="services.html">
+                    <h6>Services</h6>
+                </a>
+            </div>
+            <div class="footer-nav">
+                <a href="about.html">
+                    <h6>About</h6>
+                </a>
+                <a href="contact-us.html">
+                    <h6>Contact Us</h6>
+                </a>
+            </div>
+            <div class="footer-socials">
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/instagram.png" alt="ig-logo">
+                        <h6>Instagram</h6>
+                    </a>
+                </div>
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/youtube.png" alt="ig-logo">
+                        <h6>Youtube</h6>
+                    </a>
+                </div>
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/linkedin.png" alt="ig-logo">
+                        <h6>LinkedIn</h6>
+                    </a>
+                </div>
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/github.png" alt="ig-logo">
+                        <h6>GitHub</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="color: #faf7f7; width:80%;text-align:center;margin: 18px 0 14px 10%;">
+    <p class="copyright">Copyright &#169; 2020 Kode Star LLC.</p>
+</div>
+<script>
+    function myFunction() {
+        let x = document.getElementById("mobile-nav-item");
+        if (x.className === "mobile-nav-area") {
+            // if topnav on burger click collapse the links in the nav
+            x.className += " closed";
+        } else {
+            // if topnav and response on burger click collapse the links in the nav
+            x.className = "mobile-nav-area";
+        }
+    }
+</script>
+</body>
+</html>

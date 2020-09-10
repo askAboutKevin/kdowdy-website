@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | KodeStar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main-styles.css">
+    <link rel="stylesheet" href="./styles/contact-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <a id="home-logo" href="index.html">
+        <img id="kd-logo" src="./assets/kd-logo.png" alt="main logo">
+        <h1 style="color:#266dff;font-family: 'Red Rose', cursive;" class="header-title">Kevin</h1>
+        <h1 style="color:white;font-family: 'Red Rose', cursive;" class="header-title">Dowdy</h1>
+    </a>
+    <div class="topnav" id="myTopnav">
+        <ul class="top-nav-bar">
+            <li><a class="nav-item" href="index.html">HOME</a></li>
+            <li><a class="nav-item" href="portfolio.html">PORTFOLIO</a></li>
+            <li><a class="nav-item" href="services.html">SERVICES</a></li>
+            <li><a class="nav-item" href="about.html">ABOUT</a></li>
+            <li><a class="nav-item active" href="contact-us.html">CONTACT</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="menu-nav" onclick="myFunction()">
+            <i class="fa fa-bars bars"></i>
+        </a>
+    </div>
+</div>
+<div class="announcement-area">
+    <h2 class="announcement-item">Here at KodeStar we are ready to get started working with you. Our developers are open to opportunities to work on your new websites, apps or other software projects. They are also open to joining you for your next event and can support your team with anything from joining a panel or leading your next dev workshop.</h2>
+    <img id="carousel" class="announcement-item" src="./assets/701098.jpg" alt="">
+</div>
+<div class="main-area">
+    <div class="message-area">
+        <h2>Interested In Working With Us</h2>
+        <h3>For any inquiries, complete the form below or contact us at the email shown</h3>
+        <hr style="color: #faf7f7; width:95%;text-align:center;margin: 25px 0 22px 0;">
+    </div>
+    <div class="form-area">
+        <form>
+            <div class="form-input-area">
+                <label for="form-name" class="form-label">Name</label>
+                <input type="text" id="form-name" name="name" class="form-input-item" required>
+            </div>
+            <div class="form-input-area">
+                <label for="form-email" class="form-label">Email</label>
+                <input type="email" id="form-email" name="email" class="form-input-item" required>
+            </div>
+            <div class="form-input-area">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" name="subject" class="form-input-item" required>
+            </div>
+            <div class="form-input-area">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea type="text" id="form-message" name="message" class="form-input-item" required></textarea>
+            </div>
+            <button class="form-submit-button" id="submit" type="submit">Submit</button>
+            <p>For general inquiries you can also contact us at <a>contact@kodestar.com</a></p>
+        </form>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-row">
+        <div class="footer-row-left">
+            <img src="./assets/footer-logo.png" width="155px" height="115px" style="display: inline">
+        </div>
+        <div class="footer-row-right">
+            <h3 class="footer-subscribe-message" >Stay connected with us</h3>
+            <input class="footer-subscribe-input" type="text" id="name" placeholder="Name" name="name"/>
+            <input class="footer-subscribe-input" type="email" id="email" placeholder="Email" name="email"/>
+            <button class="footer-subscribe-button" id="subscribe" type="submit">Subscribe</button>
+        </div>
+    </div>
+    <div class="footer-row">
+        <div class="footer-row-left">
+            <p>Here at Kord Star we strive to create websites that impress both our clients and their customers while maintaining our integrity. We look forward to hearing more about your projects and how we can help.</p>
+        </div>
+        <div class="footer-row-right">
+            <div class="footer-nav">
+                <a href="index.html">
+                    <h6>Home</h6>
+                </a>
+                <a href="portfolio.html">
+                    <h6>Portfolio</h6>
+                </a>
+                <a href="services.html">
+                    <h6>Services</h6>
+                </a>
+            </div>
+            <div class="footer-nav">
+                <a href="about.html">
+                    <h6>About</h6>
+                </a>
+                <a href="contact-us.html">
+                    <h6>Contact Us</h6>
+                </a>
+            </div>
+            <div class="footer-socials">
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/instagram.png" alt="ig-logo">
+                        <h6>Instagram</h6>
+                    </a>
+                </div>
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/youtube.png" alt="ig-logo">
+                        <h6>Youtube</h6>
+                    </a>
+                </div>
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/linkedin.png" alt="ig-logo">
+                        <h6>LinkedIn</h6>
+                    </a>
+                </div>
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/github.png" alt="ig-logo">
+                        <h6>GitHub</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="color: #faf7f7; width:80%;text-align:center;margin: 18px 0 14px 10%;">
+    <p class="copyright">Copyright &#169; 2020 Kode Star LLC.</p>
+</div>
+</body>
+</html>

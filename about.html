@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us | KodeStar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main-styles.css">
+    <link rel="stylesheet" href="./styles/about-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <a id="home-logo" href="index.html">
+        <img id="kd-logo" src="./assets/kd-logo.png" alt="main logo">
+        <h1 style="color:#266dff;font-family: 'Red Rose', cursive;" class="header-title">Kevin</h1>
+        <h1 style="color:white;font-family: 'Red Rose', cursive;" class="header-title">Dowdy</h1>
+    </a>
+    <div class="topnav" id="myTopnav">
+        <ul class="top-nav-bar">
+            <li><a class="nav-item" href="index.html">HOME</a></li>
+            <li><a class="nav-item" href="portfolio.html">PORTFOLIO</a></li>
+            <li><a class="nav-item" href="services.html">SERVICES</a></li>
+            <li><a class="nav-item active" href="about.html">ABOUT</a></li>
+            <li><a class="nav-item" href="contact-us.html">CONTACT</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="menu-nav" onclick="myFunction()">
+            <i class="fa fa-bars bars"></i>
+        </a>
+    </div>
+</div>
+<div class="main-area">
+    <div class="title">
+        <h2>Meet The Team</h2>
+    </div>
+    <div class="row">
+        <div class="team-member-card">
+            <img src="./assets/kevin-ziplining.jpg" alt="">
+            <div class="team-member-card-info">
+                <h4>Kevin Dowdy, Founder & Software Engineer</h4>
+                <p>Kevin is a software engineer skilled in creating mobile apps and websites. He has experience with React + React Native, Google Cloud, Java and Data Science.</p>
+                <div class="social-icons">
+                    <a href="">
+                        <img src="./assets/linkedin.png" alt="linked in profile">
+                    </a>
+                    <a href="">
+                        <img src="./assets/instagram.png" alt="instagram profile">
+                    </a>
+                    <a href="./assets/github.png">
+                        <img src="./assets/github.png" alt="github profile">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="team-member-card">
+            <img src="./assets/shataysha-pic.jpg" alt="">
+            <div class="team-member-card-info">
+                <h4>Shataysha Byrd, Organizer</h4>
+                <p>Shataysha uses her keen organizational skills to handle day-to-day operations and planning of projects.</p>
+                <div class="social-icons">
+                    <a href="">
+                        <img src="./assets/linkedin.png" alt="linked in profile">
+                    </a>
+                    <a href="">
+                        <img src="./assets/instagram.png" alt="instagram profile">
+                    </a>
+                    <a href="./assets/github.png">
+                        <img src="./assets/github.png" alt="github profile">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--        <div class="team-member-card">-->
+<!--            <img src="./assets/kevin-ziplining.jpg" alt="">-->
+<!--            <div class="team-member-card-info">-->
+<!--                <h4>John Doe, Software Developer</h4>-->
+<!--                <p>John uses his web development experience to design beautiful UX/UI features for our projects.</p>-->
+<!--                <div class="social-icons">-->
+<!--                    <a href="">-->
+<!--                        <img src="./assets/linkedin.png" alt="linked in profile">-->
+<!--                    </a>-->
+<!--                    <a href="">-->
+<!--                        <img src="./assets/instagram.png" alt="instagram profile">-->
+<!--                    </a>-->
+<!--                    <a href="./assets/github.png">-->
+<!--                        <img src="./assets/github.png" alt="github profile">-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-row">
+        <div class="footer-row-left">
+            <img src="./assets/footer-logo.png" width="155px" height="115px" style="display: inline">
+        </div>
+        <div class="footer-row-right">
+            <h3 class="footer-subscribe-message" >Stay connected with us</h3>
+            <input class="footer-subscribe-input" type="text" id="name" placeholder="Name" name="name"/>
+            <input class="footer-subscribe-input" type="email" id="email" placeholder="Email" name="email"/>
+            <button class="footer-subscribe-button" id="subscribe" type="submit">Subscribe</button>
+        </div>
+    </div>
+    <div class="footer-row">
+        <div class="footer-row-left">
+            <p>Here at Kord Star we strive to create websites that impress both our clients and their customers while maintaining our integrity. We look forward to hearing more about your projects and how we can help.</p>
+        </div>
+        <div class="footer-row-right">
+            <div class="footer-nav">
+                <a href="index.html">
+                    <h6>Home</h6>
+                </a>
+                <a href="portfolio.html">
+                    <h6>Portfolio</h6>
+                </a>
+                <a href="services.html">
+                    <h6>Services</h6>
+                </a>
+            </div>
+            <div class="footer-nav">
+                <a href="about.html">
+                    <h6>About</h6>
+                </a>
+                <a href="contact-us.html">
+                    <h6>Contact Us</h6>
+                </a>
+            </div>
+            <div class="footer-socials">
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/instagram.png" alt="ig-logo">
+                        <h6>Instagram</h6>
+                    </a>
+                </div>
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/youtube.png" alt="ig-logo">
+                        <h6>Youtube</h6>
+                    </a>
+                </div>
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/linkedin.png" alt="ig-logo">
+                        <h6>LinkedIn</h6>
+                    </a>
+                </div>
+                <div class="footer-social-item">
+                    <a class="social-link-area" href="">
+                        <img class="footer-social-item-icon" src="./assets/github.png" alt="ig-logo">
+                        <h6>GitHub</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="color: #faf7f7; width:80%;text-align:center;margin: 18px 0 14px 10%;">
+    <p class="copyright">Copyright &#169; 2020 KodeStar LLC.</p>
+</div>
+</body>
+</html>

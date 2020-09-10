@@ -1,0 +1,86 @@
+.announcement-area{
+    margin: 100px 40px 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.announcement-item{
+    height: 350px;
+    width: 45%;
+}
+
+h2.announcement-item{
+    color: #4e4e4e;
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+}
+
+.main-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 0 10% 0;
+}
+
+.message-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-area h2{
+    color: #4e4e4e;
+    font-size: 30px;
+    font-family: "Hiragino Mincho ProN", fantasy;
+}
+
+.message-area h3{
+    color: #4e4e4e;
+    font-size: 16px;
+    font-family: "Tamil MN", sans-serif;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.form-area{
+    width: 400px;
+}
+
+.form-input-area{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: space-around;
+    margin: 6px 0;
+}
+
+.form-label{
+    color: #212121;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.form-input-item{
+    background-color: rgba(234, 234, 234, 0.45);
+    padding: 8px;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.form-submit-button{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: #929292;
+    margin-top: 20px;
+}
+
+.form-area form p{
+    color: #4e4e4e;
+    font-size: 14px;
+    font-family: "Big Caslon", cursive;
+    margin-top: 12px;
+}
