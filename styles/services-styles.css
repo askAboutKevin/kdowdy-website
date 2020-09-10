@@ -1,0 +1,95 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    padding: 30px;
+}
+
+.title-area{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.title-area h1{
+    color: #303030;
+    font-family: "Times New Roman", serif;
+    font-size: 50px;
+}
+
+.title-area h2{
+    color: #303030;
+    font-family: "Arial Hebrew Scholar", serif;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.services-area{
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px auto 30px auto;
+}
+
+.service-item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 20px;
+}
+
+.service-item img{
+    width: 150px;
+    height: 150px;
+}
+
+.service-item h3{
+    font-size: 24px;
+    font-style: italic;
+    align-content: center;
+    color: #0028ff;
+    margin-top: 12px;
+    height: 70px;
+
+}
+
+.service-item p{
+    font-size: 16px;
+    color: #0028ff;
+    margin-top: 10px;
+}
+
+.testimonials-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f9f9f9;
+    justify-content: space-around;
+    padding: 100px 30px 100px 30px;
+    border-radius: 100% 50%;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 20px;
+}
+
+.testimonial h3{
+    font-family: "Baskerville", serif;
+    font-style: italic;
+    font-size: 30px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+.testimonial p{
+    text-align: right;
+    font-size: 18px;
+    font-family: "Arial Hebrew Scholar", serif;
+    color: #303030;
+}
